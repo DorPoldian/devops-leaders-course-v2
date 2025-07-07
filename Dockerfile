@@ -11,3 +11,6 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ENV key=value
 EXPOSE 8000
+
+ENV STRESS_TEST_FLAG=true
+ENV STRESS_TEST_DURATION=60
